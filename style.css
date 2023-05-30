@@ -30,7 +30,6 @@ header img {
 header h1 {
   font-weight: 700;
   margin-left: 10px;
-  text-transform: uppercase;
   color: #333;
 }
 
@@ -38,6 +37,10 @@ header h1 {
   max-width: 500px;
   margin: 30px auto;
   padding: 20px;
+}
+
+.edit-mode {
+  color: #ccc;
 }
 
 /* Form & Input */
@@ -91,8 +94,8 @@ header h1 {
   width: 100%;
   font-size: 16px;
   background-color: #ffcf30;
-  color: #333;
-  border: 1px solid #ccc;
+  color: #fff;
+  border: none;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
